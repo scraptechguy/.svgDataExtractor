@@ -14,9 +14,6 @@ def main():
 
     for line in f.readlines():
 
-        #print(line)
-
-
         l = line.split()
 
 
