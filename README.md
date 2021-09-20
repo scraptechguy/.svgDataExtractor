@@ -1,1 +1,6 @@
-# svg_data_retriever
+## .svg Data Retriever
+
+
+
+# Usage
+Programmed for retrieving data from .svg files with common pattern.  
