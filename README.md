@@ -1,8 +1,8 @@
-## .svg Raw Data Extractor
+## .svg Data Extractor
 
 
 
 # Usage
-Programmed for extracting raw data from .svg files with common pattern. 
+Programmed for extracting raw data (.txt) from .svg files with common pattern. 
 
-~ The data begin with "C" and end with "/>" while having unwanted ' " ' at the end.
+Note: The data HAVE TO begin with "C" and end with "/>" while having unwanted ' " ' at the end for this to work as intended 
