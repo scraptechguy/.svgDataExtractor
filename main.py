@@ -1,6 +1,6 @@
 def main():  
 
-    # listes holding values of x and y coordinates, in pixels 
+    # lists holding values of x and y coordinates, in pixels 
 
     pixels_x = []
     pixels_y = [] 
@@ -8,6 +8,8 @@ def main():
     l = []
     i = 0
 
+    
+    # opens your .svg file
 
     f = open("<.svg file path>", "r")
 
@@ -42,6 +44,7 @@ def main():
             pixels_x.append(x)
             pixels_y.append(y)
 
+            
     f.close()
 
     e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
@@ -50,6 +53,7 @@ def main():
     for j in range(0, len(pixels_x)):
         e.write("%s %s\n" % (pixels_x[j], pixels_y[j]))
 
+        
     e.close()
 
 
