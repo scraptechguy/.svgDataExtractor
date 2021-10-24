@@ -1,11 +1,11 @@
-## .svg Data Extractor
+# .svg Data Extractor
 
 
 
-# Usage
+## Usage
 Programmed for extracting raw data (.txt) from .svg files with common pattern. 
 
-# Output
+## Output
 Output is pixels' x and y coordinates in this format: 
 
 _________________________________________________________
