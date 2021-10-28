@@ -6,7 +6,7 @@ def main():
     pixels_y = [] 
 
     
-    # l is used for ... and i for ...  
+    # l is a list of lines and i is used to tell whether current line is a line with wanted data (0 -> it's not, 1 -> it is)  
     
     l = []
     i = 0
