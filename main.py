@@ -13,7 +13,10 @@ def main():
 
     f = open("<.svg file path>", "r")
 
-
+    
+    # for loop that goes over every line in code, deletes unwanted "C" at the beginning & '"' at the end, and stores line's values in variables 
+    # (x to pixels_x, y to pixels_y)
+    
     for line in f.readlines():
 
         l = line.split()
