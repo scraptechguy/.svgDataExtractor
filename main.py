@@ -5,6 +5,9 @@ def main():
     pixels_x = []
     pixels_y = [] 
 
+    
+    # l is used for ... and i for ...  
+    
     l = []
     i = 0
 
@@ -26,6 +29,9 @@ def main():
             continue 
 
 
+        # if that looks for unwanted "C". If found, value of i is changed to one -> if with i == 0 is no longer true -> 
+        # -> whole loop is executed and data extraction begins
+        
         if l[0] == "C":
             i = 1
             l = l[1:]
