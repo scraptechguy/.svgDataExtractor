@@ -42,11 +42,13 @@ def main():
             l = l[1:]
 
             
-        # if unwanted "C" (beginning of data) hasn't been found yet, the loop checks the next line without doing anything
+        # if unwanted "C" (the beginning of data) hasn't been found yet, the loop checks the next line without doing anything
 
         if i == 0:
             continue
 
+            
+        # if that looks for "/>" (the end of data) and removes it when found
 
         if l[-1] == "/>":
             i = 0
