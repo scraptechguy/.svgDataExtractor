@@ -3,7 +3,7 @@
 
 
 ## Usage
-Programmed for extracting raw data (.txt) from .svg files with common pattern. 
+Programmed for extracting raw data (.txt) from .svg files with a common pattern. 
 
 ## Output
 Output is pixels' x and y coordinates in this format: 
