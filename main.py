@@ -70,7 +70,14 @@ def main():
     
     f.close()
 
+    
+    # e represents .txt file where the extracted data will be written
+    
     e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
+    
+    
+    # the text in the brackets get's displayed at the beginning of the .txt file, to help users understand it's contents
+    
     e.write("# x, y in pixels")
 
     for j in range(0, len(pixels_x)):
