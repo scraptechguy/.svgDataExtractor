@@ -12,7 +12,7 @@ def main():
     i = 0
 
     
-    # opens your .svg file
+    # f represents the .svg file, don't forget to specify your own path! :)
 
     f = open("<.svg file path>", "r")
 
@@ -58,6 +58,7 @@ def main():
 
 
         # the data is further split into x and y values, that are then appended to lists pixels_x and pixels_y
+        # j represents index in l list 
             
         for j in range(0, len(l)):
             x, y = l[j].split(",") 
@@ -71,7 +72,7 @@ def main():
     f.close()
 
     
-    # e represents .txt file where the extracted data will be written
+    # e represents .txt file where the extracted data will be written, don't forget to specify your own path!
     
     e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
     
@@ -80,6 +81,9 @@ def main():
     
     e.write("# x, y in pixels")
 
+    
+    # for loops that writes every pair of coordinates with the same index next to each other in the .txt file
+    
     for j in range(0, len(pixels_x)):
         e.write("%s %s\n" % (pixels_x[j], pixels_y[j]))
 
