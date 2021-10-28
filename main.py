@@ -48,7 +48,8 @@ def main():
             continue
 
             
-        # if that looks for "/>" (the end of data) and removes it when found
+        # if that looks for "/>" (the end of data) and removes it together with '"' when found. The value of i is changed back to 0 
+        # to skip whatever follows after the data
 
         if l[-1] == "/>":
             i = 0
