@@ -57,13 +57,17 @@ def main():
             l[-1] = l[-1][:-1]
 
 
+        # the data is further split into x and y values, that are then appended to lists pixels_x and pixels_y
+            
         for j in range(0, len(l)):
             x, y = l[j].split(",") 
 
             pixels_x.append(x)
             pixels_y.append(y)
 
-            
+    
+    # f (the .svg file) gets closed as we don't need it anymore 
+    
     f.close()
 
     e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
