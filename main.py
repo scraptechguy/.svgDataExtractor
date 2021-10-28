@@ -22,9 +22,14 @@ def main():
     
     for line in f.readlines():
 
+        
+        # l represents one line, as the loop goes, every line becomes l for one cycle
+        
         l = line.split()
 
 
+        # if that skips line when it's empty 
+        
         if len(l) == 0:
             continue 
 
