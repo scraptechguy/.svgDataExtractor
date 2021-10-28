@@ -41,6 +41,8 @@ def main():
             i = 1
             l = l[1:]
 
+            
+        # if unwanted "C" (beginning of data) hasn't been found yet, the loop checks the next line without doing anything
 
         if i == 0:
             continue
