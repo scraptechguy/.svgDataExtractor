@@ -83,13 +83,19 @@ def main():
 
     
     # for loops that writes every pair of coordinates with the same index next to each other in the .txt file
+    # j is the number of coordinates that will be written to the .txt file
     
     for j in range(0, len(pixels_x)):
         e.write("%s %s\n" % (pixels_x[j], pixels_y[j]))
 
-        
+    
+    # as we no longer need e, it gets closed
+    
     e.close()
 
 
+# this little trick makes an accessible library from code above and executes main() 
+# (code will work even when line n. 99 gets removed and line n. 100 unintended, dw)
+    
 if __name__ == '__main__':
     main()
