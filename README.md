@@ -1,6 +1,15 @@
 # .svg Data Extractor
 
-+ To run this yourself, go over <a href="" target="_blank">requirements.md</a>
++ To run this yourself, review <a href="https://github.com/scraptechguy/.svgDataExtractor/blob/main/requirements.md" target="_blank">requirements.md</a> file and do the following in terminal: 
+
+```zh
+cd <path of the project on your computer>
+```
+
+```zh
+pip install -r requirements.txt
+python main.py
+```
 
 ## How it works?
 
