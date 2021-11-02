@@ -7,9 +7,10 @@ cd <path of the project on your computer>
 ```
 
 ```zh
-pip install -r requirements.txt
 python main.py
 ```
+
++ Note: requirements.txt do NOT need to be run as no libraries are required 
 
 ## How it works?
 
