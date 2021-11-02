@@ -2,17 +2,17 @@
 
 + To run this yourself, review <a href="https://github.com/scraptechguy/.svgDataExtractor/blob/main/requirements.md" target="_blank">requirements.md</a> file and do the following in terminal: 
 
-```zh
+```sh
 cd <path of the project on your computer>
 ```
 
-```zh
+```sh
 python main.py
 ```
 
 + Note: requirements.txt do NOT need to be run as no libraries are required. If you do, following error will occur...
 
-```zh
+```sh
 ERROR: You must give at least one requirement to install (see "pip help install")
 ```
 
