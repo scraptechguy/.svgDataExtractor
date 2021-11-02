@@ -10,7 +10,11 @@ cd <path of the project on your computer>
 python main.py
 ```
 
-+ Note: requirements.txt do NOT need to be run as no libraries are required 
++ Note: requirements.txt do NOT need to be run as no libraries are required. If you do, following error will occur...
+
+```zh
+ERROR: You must give at least one requirement to install (see "pip help install")
+```
 
 ## How it works?
 
