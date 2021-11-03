@@ -48,7 +48,7 @@ Program is written in Python 3.10
 ```py
 def main():
 
-    f = open("<.svg file path>", "r")
+    f = open("sample.svg", "r")
 ```
 
 + For loop that goes over every line in your .svg file and does all the magic 
@@ -99,7 +99,7 @@ def main():
 + Program opens .txt file as e where the extracted data will be stored and writes info about the contents of the file  
 
 ```py
-    e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
+    e = open("sample.txt", "w")
     e.write("# x, y in pixels")
 ```
 
