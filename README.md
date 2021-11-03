@@ -40,3 +40,5 @@ Output is pixels' x and y coordinates in this format:
 ## Understand the code 
 
 Program is written in Python 3.10
+
+### Code structure with snippets of code 
