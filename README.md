@@ -77,3 +77,12 @@ def main():
         if i == 0:
             continue
 ```
+
++ Some unwanted elements ("/>" and '"') are present near the data we want, this removes them!
+
+```py 
+        if l[-1] == "/>":
+            i = 0
+            l = l[:-1]
+            l[-1] = l[-1][:-1]
+```
