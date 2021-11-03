@@ -47,5 +47,22 @@ Program is written in Python 3.10
 
 ```py
 def main():
+
     f = open("<.svg file path>", "r")
+```
+
++ For loop that goes over every line in your .svg file and does all the magic 
+
+```py
+    for line in f.readlines():
+    
+```
+
++ l represents a line in the cycle, if its length is 0, program skips the line and move onto the next one 
+
+```py
+        l = line.split()
+    
+        if len(l) == 0:
+            continue 
 ```
