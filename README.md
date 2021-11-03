@@ -42,3 +42,10 @@ Output is pixels' x and y coordinates in this format:
 Program is written in Python 3.10
 
 ### Code structure with snippets of code 
+
++ Program opens your .svg file 
+
+```py
+def main():
+    f = open("<.svg file path>", "r")
+```
