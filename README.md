@@ -55,7 +55,6 @@ def main():
 
 ```py
     for line in f.readlines():
-    
 ```
 
 + l represents a line in the cycle, if its length is 0, program skips the line and move onto the next one 
@@ -95,4 +94,11 @@ def main():
 
             pixels_x.append(x)
             pixels_y.append(y)
+```
+
++ Program opens .txt file as e where the extracted data will be stored and writes info about the contents of the file  
+
+```py
+    e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
+    e.write("# x, y in pixels")
 ```
