@@ -86,3 +86,13 @@ def main():
             l = l[:-1]
             l[-1] = l[-1][:-1]
 ```
+
++ Now "uninterupted" data is further split into x and y values, those are then appended to lists 
+
+```py
+        for j in range(0, len(l)):
+            x, y = l[j].split(",") 
+
+            pixels_x.append(x)
+            pixels_y.append(y)
+```
