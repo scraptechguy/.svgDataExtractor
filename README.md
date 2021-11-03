@@ -102,3 +102,10 @@ def main():
     e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
     e.write("# x, y in pixels")
 ```
+
++ x and y values are then written into the text file in the format seen above
+
+```py
+    for j in range(0, len(pixels_x)):
+        e.write("%s %s\n" % (pixels_x[j], pixels_y[j]))
+```
