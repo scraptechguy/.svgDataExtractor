@@ -14,7 +14,7 @@ def main():
     
     # f represents the .svg file, don't forget to specify your own path! :)
 
-    f = open("<.svg file path>", "r")
+    f = open("sample.svg", "r")
 
     
     # for loop that goes over every line in code, deletes unwanted "C" at the beginning & '"' at the end, and stores line's values in lists 
@@ -74,7 +74,7 @@ def main():
     
     # e represents .txt file where the extracted data will be written, don't forget to specify your own path!
     
-    e = open("<.txt file path where pixels' x and y coordinates will be extracted>", "w")
+    e = open("sample.txt", "w")
     
     
     # the text in the brackets get's displayed at the beginning of the .txt file, to help users understand its contents
