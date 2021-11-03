@@ -16,10 +16,7 @@ python main.py
 
 ```sh
 ERROR: You must give at least one requirement to install (see "pip help install")
-```
-
-## How it works?
- 
+``` 
 
 ## Understand the output
 
