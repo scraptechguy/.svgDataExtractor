@@ -66,3 +66,14 @@ def main():
         if len(l) == 0:
             continue 
 ```
+
++ The data we want start with "C", only after the "C" is found, program starts storing the data to lists
+
+```py
+        if l[0] == "C":
+            i = 1
+            l = l[1:]
+            
+        if i == 0:
+            continue
+```
