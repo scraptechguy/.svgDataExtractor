@@ -2,6 +2,8 @@
 
 Programmed for extracting raw data (<a href="https://en.wikipedia.org/wiki/Text_file" target="_blank">.txt files</a>) from <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank">.svg</a> files with a common pattern.
 
+ <b>This project contains sample .svg file and sample .txt file to make it easier for you try it yourself!</b>
+
 + To run this yourself, review <a href="https://github.com/scraptechguy/.svgDataExtractor/blob/main/requirements.md" target="_blank">requirements.md</a> file and do the following in terminal: 
 
 ```sh
