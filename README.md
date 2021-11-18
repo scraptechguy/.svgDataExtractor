@@ -1,4 +1,4 @@
-# Extraction of raw data (.txt) from .svg files
+# Simple and fast way to extract raw data (.txt) from .svg files
 
 Programmed for extracting raw data (<a href="https://en.wikipedia.org/wiki/Text_file" target="_blank">.txt files</a>) from <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank">.svg</a> files with a common pattern. <b>This project contains <a href="https://github.com/scraptechguy/.svgDataExtractor/blob/main/sample.svg" targer="_blank">sample.svg</a> file and blank <a href="https://github.com/scraptechguy/.svgDataExtractor/blob/main/sample.txt" target="_blank">sample.txt file</a> to make it easier for you to try it yourself!</b>
 
