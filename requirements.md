@@ -2,7 +2,7 @@
 
 ## To even find this useful, you need: 
 
-+ .svg file with data you want in a raw form 
++ .svg file with data you want in a raw format
 
 ## Required libraries: 
 
