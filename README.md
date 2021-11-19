@@ -36,11 +36,11 @@ Output is pixels' x and y coordinates in this format:
 
 ## Understand the code 
 
-Program is written in Python 3.10
+The program is written in Python 3.10
 
 ### Code structure with snippets of code 
 
-+ Program opens your .svg file 
++ The program opens your .svg file 
 
 ```py
 def main():
@@ -93,7 +93,7 @@ def main():
             pixels_y.append(y)
 ```
 
-+ Program opens .txt file as e where the extracted data will be stored and writes info about the contents of the file  
++ The program opens .txt file as e where the extracted data will be stored and writes info about the contents of the file  
 
 ```py
     e = open("sample.txt", "w")
