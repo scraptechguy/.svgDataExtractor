@@ -21,8 +21,7 @@ ERROR: You must give at least one requirement to install (see "pip help install"
 ### Table of contents
 
 + <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-output">Understand the output</a>
-+ <a href=""></a>
-+ <a href=""></a>
++ <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-code">Understand the code</a>
 
 ## Understand the output
 
