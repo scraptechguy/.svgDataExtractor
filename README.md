@@ -18,6 +18,12 @@ python main.py
 ERROR: You must give at least one requirement to install (see "pip help install")
 ``` 
 
+### Table of contents
+
++ <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-output">Understand the output</a>
++ <a href=""></a>
++ <a href=""></a>
+
 ## Understand the output
 
 Output is pixels' x and y coordinates in this format: 
