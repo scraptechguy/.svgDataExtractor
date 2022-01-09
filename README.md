@@ -24,7 +24,7 @@ ERROR: You must give at least one requirement to install (see "pip help install"
 + <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-code">Understand the code</a>
 + <a href="https://github.com/scraptechguy/.svgDataExtractor#use-cases">Use cases</a>
 
-### Use cases 
+## Use cases 
 
 This program helped me with extracting raw data from .svg exported Gimp paths. 
 
