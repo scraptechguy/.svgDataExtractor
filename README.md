@@ -22,6 +22,12 @@ ERROR: You must give at least one requirement to install (see "pip help install"
 
 + <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-output">Understand the output</a>
 + <a href="https://github.com/scraptechguy/.svgDataExtractor#understand-the-code">Understand the code</a>
++ <a href="https://github.com/scraptechguy/.svgDataExtractor#use-cases">Use cases</a>
+
+### Use cases 
+
+This program helped me with extracting raw data from .svg exported Gimp paths. 
+
 
 ## Understand the output
 
@@ -38,6 +44,7 @@ Output is pixels' x and y coordinates in this format:
 ```
 
 + Note: The data HAVE TO begin with "C" and end with "/>" while having unwanted ' " ' at the end for this to work as intended 
+
 
 ## Understand the code 
 
